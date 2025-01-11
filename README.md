@@ -6,6 +6,12 @@ Playground project to learn about LLMs.
 
 - [Andrej Karpathy's makemore project](https://www.youtube.com/watch?v=PaCmpygFfXo)
 
+### Prerequisites:
+
+- Python Jupyter Notebook
+- Pytorch
+- Matplotlib
+
 ## Table of Contents
 
 - [Bigram LLM](./bigramllm.ipynb)
