@@ -19,3 +19,4 @@ Playground project to learn about LLMs.
   - Arrange the dataset of the text so that the character pairs per letter are row-wise and column-wise (the second char in the pair in the col is the first char in the row)
   - Get a probability of a letter following another letter based on the character pairs in a row (Char Pair for a letter / Total Count of Char pair occurences for that letter)
   - repeat the loop since the column selected lines up with the starting char of the next pair by row index (repeat loop on that row)
+- [Bigram LLM built with a Neural Network](./bigrams_neuralnetwork.ipynb)
