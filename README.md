@@ -20,3 +20,9 @@ Playground project to learn about LLMs.
   - Get a probability of a letter following another letter based on the character pairs in a row (Char Pair for a letter / Total Count of Char pair occurences for that letter)
   - repeat the loop since the column selected lines up with the starting char of the next pair by row index (repeat loop on that row)
 - [Bigram LLM built with a Neural Network](./bigrams_neuralnetwork.ipynb)
+- [Neural Networks](./NeuralNetworks/)
+  - Following [Andrej Karpathy's building micrograd](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
+  - [Derivatives](./NeuralNetworks/derivatives.ipynb)
+  - [Notebook](./NeuralNetworks/micrograd.ipynb)
+    - Back Propagation
+      - Chain Rule
