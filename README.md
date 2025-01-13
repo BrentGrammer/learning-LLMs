@@ -51,6 +51,6 @@ Playground project to learn about LLMs.
     - The squashing function squashes so that the output approaches and plateaus and caps smoothly at 1 or -1 (if increased or decreased from zero):
 
       ![tanh function](./tanh.png)
-  
+
   - The output of the neuron is the Activation function applied to the dot product of the weights/inputs+bias:
-  $$f\left(\sum_n x_n w_n + b\right)$$
+    $$f\left(\sum_n x_n w_n + b\right)$$
