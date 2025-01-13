@@ -39,7 +39,6 @@ Playground project to learn about LLMs.
 
 - $x_n$: Inputs to the neuron
 - $w_n$: Weights (on the synapses)
-  - The synapses interact with the neuron multiplicatively
 - Processing in the Neuron: The set of weights multiplied by their corresponding inputs with a bias
 
   - what flows to the neuron are the multiple sets of inputs multiplied by the weights: $w_1 \times x_1, w_2 \times x_2, \ldots, w_n \times x_n$
@@ -48,7 +47,7 @@ Playground project to learn about LLMs.
   - The product of the inputs, weights with the bias is piped to an Activation Function
 
     - The Activation Function is usually a [squashing function](https://en.wikipedia.org/wiki/Hyperbolic_functions) of some kind (Sigmoid or Tanh)
-    - The squashing function squashes so that the output plateaus and caps smoothly at 1 or -1 (if increased or decreased from zero):
+    - The squashing function squashes so that the output plateaus and caps smoothly at 1 or -1 (as the inputs are increased or decreased from zero):
 
       ![tanh function](./tanh.png)
 
