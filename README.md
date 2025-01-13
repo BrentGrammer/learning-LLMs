@@ -47,7 +47,7 @@ Playground project to learn about LLMs.
     $$\sum_n w_n x_n + b$$
   - The product of the inputs, weights with the bias is piped to an Activation Function
 
-    - The Activation Function is usually a squashing function of some kind (Sigmoid or Tanh)
+    - The Activation Function is usually a [squashing function](https://en.wikipedia.org/wiki/Hyperbolic_functions) of some kind (Sigmoid or Tanh)
     - The squashing function squashes so that the output plateaus and caps smoothly at 1 or -1 (if increased or decreased from zero):
 
       ![tanh function](./tanh.png)
