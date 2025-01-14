@@ -33,9 +33,11 @@ Playground project to learn about LLMs.
 
 ## Architecture of a Neural Network
 
-[Visual Model of a Neuron](https://cs231n.github.io/neural-networks-1/)
+- Made up of inputs, weights and bias that are inputs to layers of Neurons
 
 ### Primary Components of a Neuron:
+
+[Visual Model of a Neuron](https://cs231n.github.io/neural-networks-1/)
 
 - $x_n$: Inputs to the neuron
 - $w_n$: Weights (on the synapses)
@@ -54,10 +56,15 @@ Playground project to learn about LLMs.
   - The output of the neuron is the Activation function applied to the dot product of the weights/inputs+bias:
     $$f\left(\sum_n x_n w_n + b\right)$$
 
-### Layers of Neurons
+### Layer of Neurons
 
 [Python Notebook](./NeuralNetworks/micrograd.ipynb)
 
 - A set of Neurons evaluated independently
   - Each neuron in a layer is not connected to each other, but are connected to all other neurons or inputs in adjacent layers
     ![Nueron Layers](./neural_net.jpeg)
+
+### Multi-Layer Perceptron (MLP)
+
+- A network with multiple Layers of Neurons
+- The Layers feed into each other sequentially (in order)
