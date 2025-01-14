@@ -61,7 +61,9 @@ Playground project to learn about LLMs.
 [Python Notebook](./NeuralNetworks/micrograd.ipynb)
 
 - A set of Neurons evaluated independently
-  - Each neuron in a layer is not connected to each other, but are connected to all other neurons or inputs in adjacent layers
+
+  - Each neuron in a layer is not connected to each other, but are connected to all other neurons or inputs in adjacent layers.
+
     ![Nueron Layers](./neural_net.jpeg)
 
 ### Multi-Layer Perceptron (MLP)
