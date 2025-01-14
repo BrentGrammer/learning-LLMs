@@ -53,3 +53,11 @@ Playground project to learn about LLMs.
 
   - The output of the neuron is the Activation function applied to the dot product of the weights/inputs+bias:
     $$f\left(\sum_n x_n w_n + b\right)$$
+
+### Layers of Neurons
+
+[Python Notebook](./NeuralNetworks/micrograd.ipynb)
+
+- A set of Neurons evaluated independently
+  - Each neuron in a layer is not connected to each other, but are connected to all other neurons or inputs in adjacent layers
+    ![Nueron Layers](./neural_net.jpeg)
