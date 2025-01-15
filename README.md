@@ -28,7 +28,7 @@ Playground project to learn about LLMs.
 - [Neural Networks](./NeuralNetworks/)
   - Following [Andrej Karpathy's building micrograd](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
   - [Derivatives](./NeuralNetworks/derivatives.ipynb)
-  - [Notebook](./NeuralNetworks/micrograd.ipynb)
+  - [Notebook](./NeuralNetworks/neural_network.ipynb)
     - Back Propagation using the Chain Rule
 
 ## Architecture of a Neural Network
@@ -58,7 +58,7 @@ Playground project to learn about LLMs.
 
 ### Layer of Neurons
 
-[Python Notebook](./NeuralNetworks/micrograd.ipynb)
+[Python Notebook](./NeuralNetworks/neural_network.ipynb)
 
 - A set of Neurons evaluated independently
 
@@ -67,6 +67,8 @@ Playground project to learn about LLMs.
     ![Nueron Layers](./neural_net.jpeg)
 
 ### Multi-Layer Perceptron (MLP)
+
+[Python Notebook](./NeuralNetworks/neural_network.ipynb)
 
 - A network with multiple Layers of Neurons
 - The Layers feed into each other sequentially (in order)
