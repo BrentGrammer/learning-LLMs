@@ -34,6 +34,10 @@ Playground project to learn about LLMs.
 ## Architecture of a Neural Network
 
 - Made up of inputs, weights and bias that are inputs to layers of Neurons
+- Loss is calculated after data passes through the layers
+  - Mean squared error, Max-margin, Cross Entropy Loss
+- Back propagation pass is done to determine weight/bias adjustments needed to get closer to target output
+- Gradient Descent: Loop back to running predictions with the upated weights and repeat Loss back propagation and parameter adjustments to continually lower the Loss
 
 ### Primary Components of a Neuron:
 
@@ -48,7 +52,7 @@ Playground project to learn about LLMs.
     $$\sum_n w_n x_n + b$$
   - The product of the inputs, weights with the bias is piped to an Activation Function
 
-    - The Activation Function is usually a [squashing function](https://en.wikipedia.org/wiki/Hyperbolic_functions) of some kind (Sigmoid or Tanh)
+    - The Activation Function is usually a [squashing function](https://en.wikipedia.org/wiki/Hyperbolic_functions) of some kind (Sigmoid, Relu or Tanh)
     - The squashing function squashes so that the output plateaus and caps smoothly at 1 or -1 (as the inputs are increased or decreased from zero):
 
       ![tanh function](./tanh.png)
@@ -72,3 +76,18 @@ Playground project to learn about LLMs.
 
 - A network with multiple Layers of Neurons
 - The Layers feed into each other sequentially (in order)
+
+#### Note on Large Datasets
+
+- In practice, for very large datasets, batching is done which takes a smaller subset of the data and uses that for the forward and backward pass
+- See Andrew Karpathy's [Micrograd demo](https://github.com/karpathy/micrograd/blob/master/demo.ipynb) for example code
+
+```Python
+def loss(batch_size=None):
+
+    if batch_size is None:
+        Xb, yb = X, y
+    else:
+        ri = np.random.permutation(X.shape[0])[:batch_size]
+        Xb, yb = X[ri], y[ri]
+```
