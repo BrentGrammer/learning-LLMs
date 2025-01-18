@@ -35,7 +35,8 @@ Playground project to learn about LLMs.
 
 - Made up of inputs, weights and bias that are inputs to layers of Neurons
 - Loss is calculated after data passes through the layers
-  - Mean squared error, Max-margin, Cross Entropy Loss
+  - Mean squared error, Max-margin, Cross Entropy Loss, Negative Log Likelihood
+  - For regression, use Mean squared error, for Classification use Negative Log Likelihood
 - Back propagation pass is done to determine weight/bias adjustments needed to get closer to target output
 - Gradient Descent: Loop back to running predictions with the upated weights and repeat Loss back propagation and parameter adjustments to continually lower the Loss
 
