@@ -30,6 +30,7 @@ Playground project to learn about LLMs.
   - [Derivatives](./NeuralNetworks/derivatives.ipynb)
   - [Notebook](./NeuralNetworks/neural_network.ipynb)
     - Back Propagation using the Chain Rule
+- [Regularization](./Regularization.md)
 
 ## Architecture of a Neural Network
 
