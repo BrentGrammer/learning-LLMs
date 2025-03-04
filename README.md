@@ -16,6 +16,7 @@ Playground project to learn about LLMs.
 
 ### LLMs
 
+- [LLM Guide and Overview](./LLM.md)
 - [Bigram LLM](./bigramllm.ipynb)
   - The main idea is to get a count of character pairs which occur in the text.
   - Arrange the dataset of the text so that the character pairs per letter are row-wise and column-wise (the second char in the pair in the col is the first char in the row)

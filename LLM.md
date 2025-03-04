@@ -59,3 +59,12 @@
 
 - Reinforcement learning revealed emergent property of better solutioning using "thinking" or "chain of thought" where the model re-traces it's steps and thinks through a problem
 - Together.ai hosts the DeepSeek model online for use
+
+## LLM Resources/Model Access
+
+- [Together.ai](https://api.together.ai/)
+- [Chat GPT](https://chatgpt.com)
+- [Google Gemeni](https://gemini.google.com/app)
+- [Hyperbolic - Base Models](https://app.hyperbolic.xyz/)
+- [ChatGPT](chatgpt.com)
+- [LMStudio](https://lmstudio.ai/) - app for running models locally
