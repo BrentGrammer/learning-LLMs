@@ -63,6 +63,7 @@
 ## LLM Resources/Model Access
 
 - [Together.ai](https://api.together.ai/)
+  - Try out different models in the [PLAYGROUND](https://api.together.ai/playground/chat/meta-llama/Llama-3.3-70B-Instruct-Turbo)
 - [Chat GPT](https://chatgpt.com)
 - [Google Gemeni](https://gemini.google.com/app)
 - [Hyperbolic - Base Models](https://app.hyperbolic.xyz/)
