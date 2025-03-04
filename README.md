@@ -57,7 +57,7 @@ Playground project to learn about LLMs.
     - The Activation Function is usually a [squashing function](https://en.wikipedia.org/wiki/Hyperbolic_functions) of some kind (Sigmoid, Relu or Tanh)
     - The squashing function squashes so that the output plateaus and caps smoothly at 1 or -1 (as the inputs are increased or decreased from zero):
 
-      ![tanh function](./tanh.png)
+      ![tanh function](./img/tanh.png)
 
   - The output of the neuron is the Activation function applied to the dot product of the weights/inputs+bias:
     $$f\left(\sum_n x_n w_n + b\right)$$
@@ -70,7 +70,7 @@ Playground project to learn about LLMs.
 
   - Each neuron in a layer is not connected to each other, but are connected to all other neurons or inputs in adjacent layers.
 
-    ![Nueron Layers](./neural_net.jpeg)
+    ![Nueron Layers](./img/neural_net.jpeg)
 
 ### Multi-Layer Perceptron (MLP)
 
