@@ -22,7 +22,7 @@ Playground project to learn about LLMs.
   - Arrange the dataset of the text so that the character pairs per letter are row-wise and column-wise (the second char in the pair in the col is the first char in the row)
   - Get a probability of a letter following another letter based on the character pairs in a row (Char Pair for a letter / Total Count of Char pair occurences for that letter)
   - repeat the loop since the column selected lines up with the starting char of the next pair by row index (repeat loop on that row)
-- [Bigram LLM built with a Neural Network](./bigrams_neuralnetwork.ipynb)
+- [Bigram LLM built with a Neural Network](./NeuralNetworks/bigrams_neuralnetwork.ipynb)
 
 ### Neural Networks
 
@@ -32,6 +32,7 @@ Playground project to learn about LLMs.
   - [Notebook](./NeuralNetworks/neural_network.ipynb)
     - Back Propagation using the Chain Rule
 - [Regularization](./Regularization.md)
+- [Makemore 2 (Andrej Karpathy)](./makemore2.md)
 
 ## Architecture of a Neural Network
 
@@ -94,3 +95,19 @@ def loss(batch_size=None):
         ri = np.random.permutation(X.shape[0])[:batch_size]
         Xb, yb = X[ri], y[ri]
 ```
+
+## Papers
+
+- [A Neural Probabilistic Language Model](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf) - influential paper on Multi-Layer Perceptrons
+  - Places words in multi dimensional vector embedding space where similar or related words are grouped closer together
+  - Allows for predicting the next word if previous words were not present in the training set (you can find similar words in the vector space)
+
+## Over-Fitting
+ 
+- Can happen when you have very many parameters compared to too few examples in training. This makes the loss easy to make very low.
+- The full dataset must be large enough to mitigate this.
+
+## Batching
+
+- In practice, to prevent iterations from taking a very long time, batches of the datasets are iterated over in Gradient Descent (see timestamp 42:24 at https://www.youtube.com/watch?v=TCH_1BHY58I&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=4) 
+  - Select a random mini-set of data and forward and backward pass on that mini-batch
