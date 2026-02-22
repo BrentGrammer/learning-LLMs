@@ -5,6 +5,7 @@ Playground project to learn about LLMs.
 ### Sources:
 
 - [Andrej Karpathy's makemore project](https://www.youtube.com/watch?v=PaCmpygFfXo)
+- [Good high level overview of how LLMs work](https://www.youtube.com/watch?v=NKnZYvZA7w4)
 
 ### Prerequisites:
 
