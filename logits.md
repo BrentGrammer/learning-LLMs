@@ -1,6 +1,6 @@
 # Logits
 
-Logits are scores for tokens which are used in the probability picking.
+Logits are raw scores (before normalizing using softmax etc. to sum to 1 for probabilities) for tokens which are used in the probability picking.
 
 Let's break down the logic behind how the probabilities are calculated and accessed in this neural network implementation for bigram language modeling:
 
